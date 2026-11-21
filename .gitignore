@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets and local credentials
+.env
+.env.*
+*.pem
+*.key
+.aws/
+
+# Local AWS deployment information
+cloud_state.json
+aws_inference_result.json
+aws_api_test_result.json
+aws_cloudwatch_metrics.json
+
+# Generated artifacts
+artifacts/
+*.tar.gz
